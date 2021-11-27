@@ -46,6 +46,10 @@ button {
 }
 
 /* main features*/
+.meu-burger {
+  display: none;
+}
+
 .section_features {
   display: flex;
   flex-direction: column;
@@ -102,4 +106,15 @@ button {
   font-weight: normal;
   font-size: 42px;
   line-height: 49px;
+}
+
+@media screen and (min-width: 375px) {
+  .menu-burger {
+    display: block;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
